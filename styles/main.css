@@ -1,4 +1,6 @@
 a { 
     color: #6e1a32;
 } 
-p {font-family: 'Permanent Marker', cursive;}
+p <h1> {font-family: 'Permanent Marker', cursive;} </h1>
+
+p <h2> {font-family: 'Satisfy', cursive;} </h2>
