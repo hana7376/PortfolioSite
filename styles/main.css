@@ -1,6 +1,10 @@
 p { 
     color: #6e1a32;
 } 
-p <h1> {font-family: 'Permanent Marker', cursive;} </h1>
+p <h1> {
+    font-family: 'Permanent Marker', cursive;
+} 
 
-p <h2> {font-family: 'Satisfy', cursive;} </h2>
+p <h2> {
+    font-family: 'Satisfy', cursive;
+} 
