@@ -1,10 +1,15 @@
 p { 
     color: #6e1a32;
 } 
-p <h1> {
+
+h1 {
+    color: #b50707;
+}
+
+h1 {
     font-family: 'Permanent Marker', cursive;
 } 
 
-p <h2> {
-    font-family: 'Satisfy', cursive;
+p  {
+    font-family: 'Nothing You Could Do';
 } 
