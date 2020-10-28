@@ -44,5 +44,5 @@ function Button9() {
 }
 
 function Button10() {
-    alert("Function 10 coming soons");
+    alert("Function 10 coming soon");
 }
