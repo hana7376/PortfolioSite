@@ -9,6 +9,54 @@
 <!-- link for NavBar from w3schools -->
 <link rel="stylesheet" href="../styles/main.css">
 <script src="../scripts/buttons.js"></script>
+<style>
+    div.gallery {
+      border: 1px solid #ccc;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+    
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
 </head>
 <body>
     <div>
@@ -20,8 +68,40 @@
             <a href="../pages/book.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">My Book</a>
     </div>
 <h1>Tech Experience</h1>
-<p>I do not have much experience with coding, but I have made two websites with the help of the programs Weebly and Wix, I also have done a few workshops through my school, but I do use Adobe programs, and am learning to use other programs like GitHub and Visual Studio Code among others. 
-</p>
-<img src="IMG_3770.PNG" width="25%" height="auto" alt="this is a picture of a rose and its shadow, saturation lowered">
+<p>I do not have much experience with coding, but I have made two websites with the help of
+     the programs Weebly and Wix, I also have done a few workshops through my school, but I 
+     do use Adobe programs, and am learning to use other programs like GitHub and Visual 
+     Studio Code among others. Below are some desktop backgrounds I have made. </p>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="my_background.JPG">
+            <img src="my_background.JPG" alt="black and red neon" width="600" height="auto">
+          </a>
+          <div class="desc">Neon red and black background</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="ipad-backgound-hiba.jpg">
+            <img src="ipad-backgound-hiba.jpg" alt="rainbow sparkles" width="600" height="auto">
+          </a>
+          <div class="desc">glitter background</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="sejal-background.jpg">
+            <img src="sejal-background.jpg" alt="black and red paws" width="600" height="auto">
+          </a>
+          <div class="desc">Black and red paws background</div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      <div style="padding:6px;">
 </body>
 </html>
