@@ -46,3 +46,8 @@ function Button9() {
 function Button10() {
     alert("Function 10 coming soon");
 }
+
+function encryption1() {
+    let name = prompt("What's your name?");
+    alert("Decode my message " + name + "!")
+}
