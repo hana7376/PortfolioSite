@@ -1,4 +1,22 @@
-function encryption2(){
+function encryption2() {
+    var str = document.getElementById("demo").innerHTML; 
+    var res = str.replace("b", "h");
+    document.getElementById("demo").innerHTML = res;
+    var str = document.getElementById("demo").innerHTML; 
+    var res = str.replace("t", "7");
+    document.getElementById("demo").innerHTML = res;
+    var str = document.getElementById("demo").innerHTML; 
+    var res = str.replace("u", "9");
+    document.getElementById("demo").innerHTML = res;
+    var str = document.getElementById("demo").innerHTML; 
+    var res = str.replace("a", "w");
+    document.getElementById("demo").innerHTML = res;
+    var str = document.getElementById("demo").innerHTML; 
+    var res = str.replace("r", "6");
+    document.getElementById("demo").innerHTML = res;
+  }
+  
+function encryption3(){
     let plaintext = prompt("enter your secret message");
     for (let i=0; i<plaintext.length; i=i+1){
         if (plaintext [i]=="b"){
