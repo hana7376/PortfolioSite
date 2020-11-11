@@ -66,5 +66,6 @@ function encryption3(){
     document.getElementById("demo").innerHTML=plaintext;
 }
 
+//make a new func for decryption where everything is
+// revesed and you can copy paste message to change it back.
 
-  
