@@ -14,6 +14,21 @@ function encryption2() {
     var str = document.getElementById("demo").innerHTML; 
     var res = str.replace("r", "6");
     document.getElementById("demo").innerHTML = res;
+    var str = document.getElementById("demo").innerHTML; 
+    var res = str.replace("n", "j");
+    document.getElementById("demo").innerHTML = res;
+    var str = document.getElementById("demo").innerHTML; 
+    var res = str.replace("e", "5");
+    document.getElementById("demo").innerHTML = res;
+    var str = document.getElementById("demo").innerHTML; 
+    var res = str.replace("s", "e");
+    document.getElementById("demo").innerHTML = res;
+    var str = document.getElementById("demo").innerHTML; 
+    var res = str.replace("h", "u");
+    document.getElementById("demo").innerHTML = res;
+    var str = document.getElementById("demo").innerHTML; 
+    var res = str.replace("g", "y");
+    document.getElementById("demo").innerHTML = res;
   }
   
 function encryption3(){
@@ -34,6 +49,18 @@ function encryption3(){
         else if (plaintext [i]=="r"){
             plaintext.replace("r","6");
         }
+        else if (plaintext [i]=="n"){
+            plaintext.replace("n","j");
+      }
+      else if (plaintext [i]=="e"){
+            plaintext.replace("e","5");
+      }
+      else if (plaintext [i]=="s"){
+          plaintext.replace("s","e");
+      }
+      else if (plaintext [i]=="h"){
+          plaintext.replace("h","u");
+      }
     }
     console.log (plaintext.replace("t","7"));
     document.getElementById("demo").innerHTML=plaintext;
