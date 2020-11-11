@@ -62,10 +62,8 @@ function encryption3(){
           plaintext.replace("h","u");
       }
     }
-    console.log (plaintext.replace("t","7"));
     document.getElementById("demo").innerHTML=plaintext;
 }
 
-//make a new func for decryption where everything is
-// revesed and you can copy paste message to change it back.
-
+//make a new func for decryption where everything is revesed and you can copy paste message to change it back.
+//made a new page for it 

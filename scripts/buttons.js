@@ -49,5 +49,5 @@ function Button10() {
 
 function encryption1() {
     let name = prompt("What's your name?");
-    alert("Decode my message then try your own " + name + "!")
+    alert( "Encrypt my message then try your own " + name + "!")
 }
